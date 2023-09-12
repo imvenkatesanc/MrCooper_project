@@ -1,0 +1,44 @@
+.form-cont{
+  max-width: 800px;
+  margin-left: 300px;
+  padding: 20px;
+}
+.form-cont > h2{
+  justify-content: center;
+  text-align: center;
+  color: green;
+}
+form input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #989898;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+form label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 10px;
+  padding: 5px;
+}
+.update-btn{
+  background-color: green;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-left: 39%;
+}
+
+.update-btn:hover {
+  background-color: #0056b3;
+}
+.error{
+  color: red;
+}
+.success{
+  color: green;
+}

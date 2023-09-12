@@ -1,0 +1,79 @@
+/* Reset default styles */
+body, ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  /* Dashboard container styles */
+  .dashboard-container {
+    display: flex;
+  }
+  
+  /* Sidebar styles */
+  .sidebar {
+    background-color: #063970;
+    color: #fff;
+    width: 70px;
+    padding-top: 20px;
+    height: 100vh;
+    transition: width 0.3s ease-in-out;
+    overflow: hidden;
+    text-indent: 25px;
+    position: fixed;
+    margin-top: 80px;
+    border: 1px solid black;
+  }
+  .sidebar.open {
+    width: 250px;
+  }
+  
+  .sidebar-header {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 30px;
+  }
+  
+  .sidebar-header #sidebar-toggle {
+    color: #fff;
+    font-size: 30px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  /* Navigation styles */
+  .nav {
+    padding-left: 25px;
+  }
+  .nav-link {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 40px;
+  }
+  .nav-link:hover{
+    color:#d9d9d9 ;
+  }
+  #sidebar-toggle .svg-inline--fa {
+    font-size: 35px;
+    color:black;
+  }
+  #sidebar-toggle .svg-inline--fa:hover {
+    font-size: 35px;
+    color:white;
+  }
+  
+  .nav-link .svg-inline--fa:hover{
+    color: #d9d9d9;
+  }
+  .nav-link .svg-inline--fa {
+    font-size: 30px; 
+  }
+  .intern_main_cont{
+    background-color: #fff;
+    padding-left: 260px;
+    padding-top: 100px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+  }
